@@ -6,7 +6,38 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef5c0096-a641-43c1-ac28-8b03168246b6" name="Default Changelist" comment="" />
+    <list default="true" id="ef5c0096-a641-43c1-ac28-8b03168246b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../testMQ/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testMQ/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testMQ/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testMQ/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testMQ/consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testMQ/consumer/src/main/java/dev/com/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testMQ/consumer/src/main/java/dev/com/config/FanoutConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testMQ/consumer/src/main/java/dev/com/listerner/SpringRabbitLister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testMQ/consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testMQ/producer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testMQ/producer/src/main/java/dev/com/produce/ProducerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testMQ/producer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testMQ/producer/src/test/java/dev/com/produce/SpringMQTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testcloud/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dev/controller/ProductsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dev/entry/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dev/mapper/ProductsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dev/service/ProductsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dev/service/impl/ProductsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resouces/com.dev.mapper/productsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/entry/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/entry/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resouces/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resouces/mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/entry/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/entry/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-mvc/WEB-INF/classes/com/dev/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-mvc/WEB-INF/classes/com/dev/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-mvc/WEB-INF/classes/com/dev/entry/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-mvc/WEB-INF/classes/com/dev/entry/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-mvc/WEB-INF/classes/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-mvc/WEB-INF/classes/mybatis.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +52,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -44,7 +78,9 @@
     </option>
   </component>
   <component name="ProjectId" id="25r0dtXS5SuWILPDOp6ZSx9HSMD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resouces" />
@@ -71,7 +107,6 @@
     <configuration name="Tomcat 8.0.51" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.51" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="testmvc:war exploded">
           <settings>
@@ -155,20 +190,53 @@
       <updated>1646269988457</updated>
       <workItem from="1646269992448" duration="21571000" />
       <workItem from="1646363122103" duration="653000" />
-      <workItem from="1646976392299" duration="266000" />
+      <workItem from="1646976392299" duration="2800000" />
+      <workItem from="1647510052393" duration="385000" />
+      <workItem from="1647855100761" duration="1350000" />
+      <workItem from="1647909699509" duration="6674000" />
+      <workItem from="1647938289180" duration="2971000" />
+      <workItem from="1647941363877" duration="252000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/dev/controller/UserController.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/dev/controller/ProductsController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dev/controller/ProductsController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dev/controller/ProductsController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dev/controller/ProductsController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

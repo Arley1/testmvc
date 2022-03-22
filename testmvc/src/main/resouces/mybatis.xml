@@ -10,5 +10,6 @@
     <typeAliases>
         <!--<typeAlias type="com.itheima.domain.Account" alias="account"></typeAlias>-->
         <package name="com.dev.entry"/>
+
     </typeAliases>
 </configuration>
